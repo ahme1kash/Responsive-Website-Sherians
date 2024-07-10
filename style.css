@@ -182,7 +182,7 @@ body {
         border: 2px;
         border-radius: 5px;
         font-weight: 750;
-        margin-top: 2vw;
+        margin-top: 15vw;
     }
 
     .content {
@@ -216,12 +216,12 @@ body {
     .left p {
         font-size: 4vw;
         width: 100%;
-        margin-top: 5vw;
+        margin-top: 1vw;
         margin-bottom: 0.5vw;
     }
 
     .right img {
-        margin-top: 6vw;
+        margin-top: 16vw;
         height: 45vw;
         width: 90vw;
         margin-bottom: 2vw;
