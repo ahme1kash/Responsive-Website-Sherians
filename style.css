@@ -227,3 +227,87 @@ body {
         margin-bottom: 2vw;
     }
 }
+
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+
+    .main {
+        overflow-x: hidden;
+    }
+
+    .nav {
+        padding: 0 5vw;
+        height: 85px;
+    }
+
+    .nav img {
+        width: 16vw;
+        height: 11vh;
+
+    }
+
+
+    .nav h4 {
+        font-size: 3vw;
+        display: none;
+    }
+
+    .nav i {
+        display: block;
+        font-size: large;
+    }
+
+    .nav button {
+        display: none;
+    }
+
+    .left button {
+        font-size: 3.5vw;
+        padding: 2.3vw 2.1vw;
+        background-image: linear-gradient(#ffa8a8, #3A4AC3);
+        color: #ffffff;
+        border: 2px;
+        border-radius: 5px;
+        font-weight: 750;
+        margin-top: 15vw;
+    }
+
+    .content {
+        height: calc(100% - 85px);
+        flex-direction: column;
+        /* w
+        idth: 35em; */
+    }
+
+    .left {
+        /* background-color: #40CFA4; */
+        width: 100%;
+        height: 55%;
+        padding: 5vw 6vw;
+    }
+
+    .right {
+        /* background-color: #ffa8a8; */
+        width: 100%;
+        height: 45%;
+        margin-top: 2vw;
+        padding: 1vw 3vw;
+        margin-left: 6vw;
+    }
+
+    .left h1 {
+        font-size: 9vw;
+        line-height: 11.2vw;
+    }
+
+    .left p {
+        font-size: 6vw;
+        width: 100%;
+        margin-top: 8vw;
+    }
+
+    .right img {
+        margin-top: 15vw;
+        height: 55vw;
+        width: 80vw;
+    }
+}
